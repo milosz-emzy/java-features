@@ -1,8 +1,9 @@
-package encapsulation;
+package accessmodifiers;
 
 // default, package-private
 class DefaultAnimal {
     int age = 100;
+    protected int protectedAge = 100;
     static class InnerClass {
         final String name = "";
 
