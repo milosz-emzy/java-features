@@ -1,5 +1,10 @@
 //package sealedswitch;
 //
+///*
+//* /home/emzy/IdeaProjects/java-features/src/main/java/sealedswitch/Main.java:10:18
+//java: patterns in switch statements are not supported in -source 17
+//  (use -source 21 or higher to enable patterns in switch statements) :(
+//* */
 //public class Main {
 //    public static void main(String[] args) {
 //        Lorry lorry = new Lorry();
@@ -16,7 +21,7 @@
 //        };
 //    }
 //
-//     Interface no default needed if all cases are covered
+//    //Interface no default needed if all cases are covered
 //    VehicleInterface getVehicleInterface(VehicleInterface v) {
 //        return switch (v) {
 //            case Auto auto -> auto;
