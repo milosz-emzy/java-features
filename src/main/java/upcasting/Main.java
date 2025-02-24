@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
 
         Animal animal = new Animal();
-        //upcasting
+        //upcasting and Dependency Inversion
         Animal animalUpcasting = new Dog();
         Dog dog = new Dog();
 
@@ -28,6 +28,7 @@ public class Main {
         animal.makeNoise();
     }
 
+    //Dependency Inversion by using Animal animal
     private static void animalMakeNoiseDowncast(Animal animal) {
         animal.makeNoise();
 

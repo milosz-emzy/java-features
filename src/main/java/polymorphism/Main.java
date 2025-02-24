@@ -21,5 +21,9 @@ public class Main {
 
         System.out.println(cat.meow()); //return string meow
 
+        animal.eatViolatesDependencyInversion(); //I'm eating...
+        dog.eatViolatesDependencyInversion(); //Dog violates dependency inversion principle
+        cat.eatViolatesDependencyInversion(); //I'm eating...
+
     }
 }
