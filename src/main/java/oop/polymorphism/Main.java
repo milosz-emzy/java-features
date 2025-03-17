@@ -1,4 +1,4 @@
-package polymorphism;
+package oop.polymorphism;
 
 //polymorphism - we are doing the same thing in different form
 public class Main {

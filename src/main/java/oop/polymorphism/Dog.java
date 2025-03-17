@@ -1,4 +1,4 @@
-package polymorphism;
+package oop.polymorphism;
 
 public class Dog extends Animal{
 
@@ -11,6 +11,16 @@ public class Dog extends Animal{
     }
 
     void bark() {
+        System.out.println("bark!");
+    }
+    //overloading
+    void bark(String s) {
+        System.out.println("bark!");
+    }
+    void bark(Integer i) {
+        System.out.println("bark!");
+    }
+    void bark(Integer i, Integer j) {
         System.out.println("bark!");
     }
 

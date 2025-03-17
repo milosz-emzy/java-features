@@ -1,4 +1,4 @@
-package abstractclass;
+package oop.abstractclass;
 
 class Cat extends Animal{
     @Override

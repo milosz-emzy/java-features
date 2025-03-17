@@ -19,5 +19,19 @@ class Dog extends ProtectedAnimal {
         //    protected static int age = 100;
         //}
         var age = ProtectedAnimal.age;
+        Dog dog = new Dog();
+
+//        Dog protectedAnimal = new ProtectedAnimal(10, 10);
+
+        //use of protected method via inheritance
+        dog.protectedMethod();
+    }
+}
+
+class AnotherDog {
+    public static void main(String[] args) {
+        //this class doesn't extend ProtectedAnimal with protected field age
+        //'age' has protected access in 'accessmodifiers. ProtectedAnimal'
+        //var age = ProtectedAnimal.age;
     }
 }

@@ -1,4 +1,4 @@
-package polymorphism;
+package oop.polymorphism;
 
 public class Animal {
     void eat() {

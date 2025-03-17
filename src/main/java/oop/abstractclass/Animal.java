@@ -1,4 +1,4 @@
-package abstractclass;
+package oop.abstractclass;
 
 abstract class Animal {
     int age;

@@ -1,4 +1,4 @@
-package abstractclass;
+package oop.abstractclass;
 
 class Main {
     public static void main(String[] args) {

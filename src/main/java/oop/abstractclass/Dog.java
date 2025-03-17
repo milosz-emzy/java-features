@@ -1,4 +1,4 @@
-package abstractclass;
+package oop.abstractclass;
 
 //Class 'Dog' must either be declared abstract or implement abstract method 'eat()' in 'Animal'
 class Dog extends Animal{
